@@ -1,34 +1,34 @@
 {
     eigen = {
-        license = "MPL-2.0",
-        __enabled = true,
-        installdir = "/Users/rocketsky/.xmake/packages/e/eigen/3.4.0/3f86ce79685345528c94f55b62c2cf1d",
         sysincludedirs = {
             "/Users/rocketsky/.xmake/packages/e/eigen/3.4.0/3f86ce79685345528c94f55b62c2cf1d/include",
             "/Users/rocketsky/.xmake/packages/e/eigen/3.4.0/3f86ce79685345528c94f55b62c2cf1d/include/eigen3"
         },
         version = "3.4.0",
+        __requirestr = "eigen 3.4.0",
+        __requireconfs = {
+            configs = {
+                shared = false,
+                cxflags = "-fPIC",
+                debug = true
+            },
+            system = false
+        },
+        license = "MPL-2.0",
+        installdir = "/Users/rocketsky/.xmake/packages/e/eigen/3.4.0/3f86ce79685345528c94f55b62c2cf1d",
         envs = {
+            DYLD_LIBRARY_PATH = {
+                "/Users/rocketsky/.xmake/packages/e/eigen/3.4.0/3f86ce79685345528c94f55b62c2cf1d/lib",
+                "/Users/rocketsky/.xmake/packages/c/cmake/3.26.4/180e2e3dcc634a9ab0af70d77b01ca8a/lib"
+            },
             LD_LIBRARY_PATH = {
                 "/Users/rocketsky/.xmake/packages/e/eigen/3.4.0/3f86ce79685345528c94f55b62c2cf1d/lib",
                 "/Users/rocketsky/.xmake/packages/c/cmake/3.26.4/180e2e3dcc634a9ab0af70d77b01ca8a/lib"
             },
             PATH = {
                 "/Users/rocketsky/.xmake/packages/c/cmake/3.26.4/180e2e3dcc634a9ab0af70d77b01ca8a/bin"
-            },
-            DYLD_LIBRARY_PATH = {
-                "/Users/rocketsky/.xmake/packages/e/eigen/3.4.0/3f86ce79685345528c94f55b62c2cf1d/lib",
-                "/Users/rocketsky/.xmake/packages/c/cmake/3.26.4/180e2e3dcc634a9ab0af70d77b01ca8a/lib"
             }
         },
-        __requirestr = "eigen 3.4.0",
-        __requireconfs = {
-            configs = {
-                cxflags = "-fPIC",
-                shared = false,
-                debug = true
-            },
-            system = false
-        }
+        __enabled = true
     }
 }

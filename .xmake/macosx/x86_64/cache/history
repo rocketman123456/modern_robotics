@@ -6,6 +6,20 @@
         "xmake check",
         "xmake check",
         "xmake r",
-        "xmake r test"
+        "xmake r test",
+        "xmake check",
+        "xmake l /Users/rocketsky/.vscode/extensions/tboox.xmake-vscode-2.2.1/assets/explorer.lua",
+        "xmake ",
+        "xmake ",
+        "xmake r",
+        "xmake ",
+        "xmake ",
+        "xmake r",
+        "xmake ",
+        "xmake r",
+        "xmake ",
+        "xmake r",
+        "xmake ",
+        "xmake r"
     }
 }
