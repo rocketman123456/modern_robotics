@@ -1,0 +1,11 @@
+[
+{
+  "directory": "/Users/rocketsky/Program/RobotCode/modern_robotics",
+  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos13.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk", "-m64", "-Iinclude", "-o", "build/.objs/modern_robotics/macosx/x86_64/src/modern_robotics.cpp.o", "src/modern_robotics.cpp"],
+  "file": "src/modern_robotics.cpp"
+},
+{
+  "directory": "/Users/rocketsky/Program/RobotCode/modern_robotics",
+  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos13.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk", "-m64", "-Iinclude", "-o", "build/.objs/test/macosx/x86_64/main.cpp.o", "main.cpp"],
+  "file": "main.cpp"
+}]
