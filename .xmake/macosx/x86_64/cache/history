@@ -20,6 +20,7 @@
         "xmake ",
         "xmake r",
         "xmake ",
-        "xmake r"
+        "xmake r",
+        "xmake l /Users/rocketsky/.vscode/extensions/tboox.xmake-vscode-2.2.1/assets/explorer.lua"
     }
 }
