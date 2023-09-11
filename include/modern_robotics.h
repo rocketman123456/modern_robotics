@@ -284,8 +284,7 @@ namespace MR
      *           within the tolerances eomg and ev.
      *	thetalist[in][out]: Joint angles that achieve T within the specified tolerances,
      */
-    bool
-    IKinBody(const Eigen::MatrixXd&, const Eigen::MatrixXd&, const Eigen::MatrixXd&, Eigen::VectorXd&, double, double);
+    bool IKinBody(const Eigen::MatrixXd&, const Eigen::MatrixXd&, const Eigen::MatrixXd&, Eigen::VectorXd&, double, double);
 
     /*
      * Function: Computes inverse kinematics in the space frame for an open chain robot
@@ -310,8 +309,7 @@ namespace MR
      *           within the tolerances eomg and ev.
      *	thetalist[in][out]: Joint angles that achieve T within the specified tolerances,
      */
-    bool
-    IKinSpace(const Eigen::MatrixXd&, const Eigen::MatrixXd&, const Eigen::MatrixXd&, Eigen::VectorXd&, double, double);
+    bool IKinSpace(const Eigen::MatrixXd&, const Eigen::MatrixXd&, const Eigen::MatrixXd&, Eigen::VectorXd&, double, double);
 
     /*
      * Function: This function uses forward-backward Newton-Euler iterations to solve the

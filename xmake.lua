@@ -8,6 +8,9 @@ add_includedirs("include")
 target("modern_robotics")
     set_kind("static")
     add_headerfiles("include/*.h")
+    if is_plat("windows") then
+        add_cxxflags("/bigobj")
+    end
     add_files("src/*.cpp")
     add_packages("eigen")
 target_end()

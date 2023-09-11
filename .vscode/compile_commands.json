@@ -1,11 +1,11 @@
 [
 {
-  "directory": "/Users/rocketsky/Program/RobotCode/modern_robotics",
-  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos13.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk", "-m64", "-Iinclude", "-o", "build/.objs/modern_robotics/macosx/x86_64/src/modern_robotics.cpp.o", "src/modern_robotics.cpp"],
-  "file": "src/modern_robotics.cpp"
+  "directory": "c:\\Users\\75909\\Desktop\\Program\\RobotCode\\modern_robotics",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Iinclude", "/EHsc", "/IC:\\Users\\75909\\AppData\\Local\\.xmake\\packages\\e\\eigen\\3.4.0\\6aaabf8fc22e48b39509baf68686ab91\\include", "/IC:\\Users\\75909\\AppData\\Local\\.xmake\\packages\\e\\eigen\\3.4.0\\6aaabf8fc22e48b39509baf68686ab91\\include\\eigen3", "/Fobuild\\.objs\\test\\windows\\x64\\release\\main.cpp.obj", "main.cpp"],
+  "file": "main.cpp"
 },
 {
-  "directory": "/Users/rocketsky/Program/RobotCode/modern_robotics",
-  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos13.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk", "-m64", "-Iinclude", "-o", "build/.objs/test/macosx/x86_64/main.cpp.o", "main.cpp"],
-  "file": "main.cpp"
+  "directory": "c:\\Users\\75909\\Desktop\\Program\\RobotCode\\modern_robotics",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Iinclude", "/EHsc", "/IC:\\Users\\75909\\AppData\\Local\\.xmake\\packages\\e\\eigen\\3.4.0\\6aaabf8fc22e48b39509baf68686ab91\\include", "/IC:\\Users\\75909\\AppData\\Local\\.xmake\\packages\\e\\eigen\\3.4.0\\6aaabf8fc22e48b39509baf68686ab91\\include\\eigen3", "/bigobj", "/Fobuild\\.objs\\modern_robotics\\windows\\x64\\release\\src\\modern_robotics.cpp.obj", "src\\modern_robotics.cpp"],
+  "file": "src\\modern_robotics.cpp"
 }]
